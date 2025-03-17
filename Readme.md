@@ -11,6 +11,9 @@ In C++, polymorphism manifests in two major forms:
 - It's achieved through method/function overloading or operator overloading.
 
 ### Function Overloading:
+- This allows multiple functions with the same name but different parameters as can be seen in `function_overloading.cpp`.
+- in the code in `function_overloading.cpp`, the compiler determines which add function to call based on the argument types. 
+- The result given are: 30, 30.3, and "HelloWorld" respectively.
 
 ### Operator Overloading:
 
