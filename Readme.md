@@ -12,10 +12,13 @@ In C++, polymorphism manifests in two major forms:
 
 ### Function Overloading:
 - This allows multiple functions with the same name but different parameters as can be seen in `function_overloading.cpp`.
-- in the code in `function_overloading.cpp`, the compiler determines which add function to call based on the argument types. 
+- In the code in `function_overloading.cpp`, the compiler determines which add function to call based on the argument types. This effectively eliminates the use of multiple function names such as addInt, addDouble etc. 
 - The result given are: 30, 30.3, and "HelloWorld" respectively.
 
 ### Operator Overloading:
+- This allows redefining operators (e.g. +, -, <<) for custom types
+- Although there some exception to this in c++ such as (::, ?:, ., sizeOf)
+- In the code in `operator_overloading.cpp`, the operator == is overloaded for the car class to compare two car objects based on there names and cost.
 
 ## Runtime (dynamic) Polymorphism:
 - This type of polymorphism occurs during the program's execution
