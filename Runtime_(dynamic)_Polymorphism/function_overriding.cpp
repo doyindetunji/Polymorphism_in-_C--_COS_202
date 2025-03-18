@@ -43,12 +43,18 @@ int main() {
     Dog dog;
     Cat cat;
     Cow cow;
+
+    //using polymorphism through a pointer to call the sound function
+    //using the base class pointer
+    Animal* animal1 = &dog;
+    Animal* animal2 = &cat;
+    Animal* animal3 = &cow;
     
-    //calling the virtual function sound for each object
-    //the function called is based on the object type
-    dog.sound();
-    cat.sound();
-    cow.sound();
+    //calling the virtual function "sound" using the base class pointer
+    //calls the sound function of the derived class
+    animal1->sound();
+    animal2->sound();
+    animal3->sound();
     
     return 0;
 }
