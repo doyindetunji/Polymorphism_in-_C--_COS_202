@@ -13,7 +13,7 @@ class Animal {
 class Dog : public Animal {
     public:
     //overriding the sound function
-        void sound() {
+        void sound() override{
             std::cout << "Barks!\n";
         }
 };
@@ -23,7 +23,7 @@ class Dog : public Animal {
 class Cat : public Animal {
     public:
     //overriding the sound function
-        void sound() {
+        void sound() override{
             std::cout << "Meows!\n";
         }
 };
@@ -33,7 +33,7 @@ class Cat : public Animal {
 class Cow : public Animal {
     public:
     //overriding the sound function
-        void sound() {
+        void sound() override{
             std::cout << "Moos!\n";
         }
 };
