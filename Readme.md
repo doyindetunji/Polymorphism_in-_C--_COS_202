@@ -41,3 +41,5 @@ In C++, polymorphism manifests in two major forms:
 ## Note
 
 This document contains notes taken for further understanding of the COS 202 course at Miva Open University.
+For more detailed information, refer to the [full note here](https://docs.google.com/document/d/1NJsBKrsUcL_uQRIHNTVBjpSuYFAlx8WBLS3VMQWy_jo/edit?usp=sharing).
+Or the [Peer to Peer assessment here](https://drive.google.com/file/d/1HfGDE4Kti4Lo4m8JJR8ypFRINUcq6_ka/view?usp=sharing)
